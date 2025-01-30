@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.uper-header{
+    padding: 30px;
+    display: flex;
+    gap: 0 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bold{
+    font-size: 50px;
+    color: #002f34;
+}
+.fa-car{
+    border: 1px solid wheat;   
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgb(189, 182, 182);
+}
+.fa-house{
+    border: 1px solid wheat;   
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgb(189, 182, 182);
+}
+.h1{
+    font-size: 30px;
+    color: #002f34;
+     padding:10px;
+}
+h1:hover{
+    color: orchid;
+}
+ header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ #Dropdown{
+     width: 500px;
+     height: 40px;
+     font-size: 25px;
+     border-radius: 5px;
+ }
+ #Dropdown:hover{
+    border-color: aqua;
+ }
+.input1{
+    width: 750px;
+    height: 40px;
+    font-size: 20px;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+.input1:hover{
+    border-color: aqua;
+}
+ .button-list{
+    font-size: 20px;
+}
+.button-list li{
+    display: inline;
+    padding: 0 10px;
+}
+.Login{
+    color: #002f34;
+    font-weight: 700;
+}
+.Sell{
+      text-decoration: none;
+      border: 1px solid #002f34;
+      border-radius: 50px;
+      padding: 5px 20px;
+      color: #002f34;
+      font-weight: 700;
+}
+.Word-flex{
+     padding: 30px;
+     display: flex;
+     color: #002f34;
+}
+.Links-set a{
+    padding: 0 20px;
+    color: #002f34;
+    text-decoration: none;
+    font-size: 18px;
+}
+a:hover{
+    color: aqua;
+}
+.img1{
+    padding: 0 50px; 
+    width: 100%;
+    height: 250px;
+    background-position: center;
+}
+.bg-img{
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img2{
+    width: 900px;
+    height: 150px;
+}
+.heading1{
+    color: #002f34;
+    padding: 0 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bg-img1{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+} 
+.para1{
+    padding: 0 30px;
+    font-weight: 700;
+    font-size: large;
+}
+.para2{
+    padding: 0 50px;
+    font-weight: 700;
+    font-size: large;
+}
+.bg-img2{
+    margin-top: 30px;
+    display: flex;
+    padding: 0 20px;
+    gap: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+} 
+.heading2{
+    margin-top: 70px;
+    padding: 0 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #002f34;
+}
+.container-box{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.box1{
+    border: 1px solid wheat;
+    border-radius: 10px;
+    width: 22%;
+    height: 450px;
+    margin-top: 30px;
+}
+.image1{
+    width: 100%;
+    height: 250px;
+}
+ .heading3{
+    padding: 10px;
+    color: #002f34;
+ }
+ .para3{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#0c6974;
+ }
+ .Main-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+ }
+ .container-image{
+    width: 550px;
+    height: 250px;
+ }
+ .text-Set{
+       margin-top: 30px;
+ }
+ .heading-foot{
+    font-size:50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    color: #002f34;
+ }
+ .para-foot{
+    font-size: 30px;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #0c6974;
+ }
+
+ .image-Set{
+    margin-top: 70px;
+    font-size: 25px;
+    color:#002f34;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .image-Set li{
+      list-style: none;
+      display: inline;
+ }
+ .images4{
+    margin-top: 30px;
+    width: 130px;
+ }
+    footer{
+    background-color: rgb(235, 228, 216);
+    width: 100%;
+    height: 300px;
+ }
+ .footer-container{
+     display: flex;
+    justify-content: space-around;
+     padding: 30px;
+ }
+ .footer-heading{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #002f34;
+
+ }
+ .footer-list{
+    list-style: none;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .footer-list li{
+    padding: 10px 0;
+    font-size: 17px;
+ }
+ .footer-list a{
+    color:rgb(143, 176, 177);
+    text-decoration: none;
+ }
+  li a:hover{
+     color: brown;
+ }
+ .logo-set{
+    height: 50px;
+    padding: 10px 10px;
+ }
+ .footer-list1 li{
+    display: inline;
+ }
+.footer-part{
+    background-color: #002f34;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 20px;
+    color: white;
+    font-size: large;
+}
+
+@media only screen and (max-width: 1434px) {
+    #Dropdown{
+            width: 350px;
+    }
+    .input1{
+      width: 500px;
+    }
+  }
+
+@media only screen and (max-width: 1034px) {
+    #Dropdown{
+            width: 250px;
+            font-size: 20px;
+    }
+    .input1{
+        width: 350px;
+    }
+    .img2{
+        width: 800px;
+    }
+  }
+  @media only screen and (max-width: 785px) {
+    #Dropdown{
+            width: 150px;
+            font-size: 12px;
+    }
+    .input1{
+        width: 250px;
+        font-size:15px;
+    }
+    .img1{
+       width: 100%;
+    }
+    .img2{
+       width: 450px;
+    }
+    .Main-container{
+        display: grid;
+    }
+  }
+  @media only screen and (max-width: 685px) {
+    #Dropdown{
+            width: 90px;
+            font-size: 8px;
+    }
+    .input1{
+        width: 150px;
+        font-size: 10px;
+    }
+    .box1{
+        width: 44%;
+      
+    }
+      .footer-container{
+        display: grid;
+         background-color:  rgb(235, 228, 216);
+      }
+      .footer-part{
+        display: none;
+      }
+         
+  }
+  @media only screen and (max-width: 560px) {
+       .container-image{
+        width: 400px;
+       }
+       .para-foot{
+          text-decoration: dashed;
+       }
+  }
+ 
+@media only screen and (max-width: 465px) {
+    .uper-header{
+        gap: 0px 20px;
+    }
+    .h1{
+        font-size: 15px;
+    }
+
+    #Dropdown{
+            width: 50%;
+    }
+    .input1{
+           width: 100px;
+
+    }
+    .img2{
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .Sell{
+       visibility: hidden;
+    }
+    .container-image{
+        width: 250px;
+    }
+    .box1{
+        width: 88%;
+    }
+}
+
+ 
+
+
+
+
+
+
